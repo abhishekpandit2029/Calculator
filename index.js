@@ -24,3 +24,14 @@ Array.from(buttons).forEach((button) => {
     }
   });
 });
+
+function myFunction() {
+  var element = document.getElementById("body");
+  element.classList.toggle("body");
+
+  var elementone = document.getElementById("calc");
+  elementone.classList.toggle("ccalc");
+
+  var elementtwo = document.getElementById("firstblock");
+  elementtwo.classList.toggle("cfirstblock");
+}

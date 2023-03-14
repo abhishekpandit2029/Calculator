@@ -70,13 +70,13 @@ img{
 }
 
 .calc {
-  width: 310px;
+  width: 300px;
   border-radius: 50px;
   background: black;
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .ccalc{

@@ -6,7 +6,7 @@ Array.from(buttons).forEach((button) => {
       if (e.target.innerHTML == "=") {
         string = eval(string);
         document.querySelector("input").value = string;
-      } else if (e.target.innerHTML == "AC") {
+      } else if (e.target.innerHTML == "AC") { 
         string = "";
         document.querySelector("input").value = string;
       } else if (e.target.innerHTML == "DEL") {
@@ -24,14 +24,3 @@ Array.from(buttons).forEach((button) => {
     }
   });
 });
-
-function myFunction() {
-  var element = document.getElementById("body");
-  element.classList.toggle("body");
-
-  var elementone = document.getElementById("calc");
-  elementone.classList.toggle("ccalc");
-
-  var elementtwo = document.getElementById("firstblock");
-  elementtwo.classList.toggle("cfirstblock");
-}

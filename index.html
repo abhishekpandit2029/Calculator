@@ -4,13 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Calculator</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" /> 
   </head>
 
   <body id="body">
     <div class="calc" id="calc">
       <div class="firstblock" id="firstblock">
-        <h1>Calculator <sup><img src="./stuff/dn.png" alt="mode" onclick="myFunction()"></sup></h1>
+        <h1>Calculator</h1>
         <div class="row">
           <input class="input"  type="text" />
         </div>
@@ -18,37 +18,41 @@
 
       <div class="container">
         <div class="row">
-          <button class="button">AC</button>
-          <button class="button">DEL</button>
-          <button class="button">%</button>
-          <button class="button">/</button>
+          <button class="button nonsign">AC</button>
+          <button class="button nonsign">DEL</button>
+          <button class="button nonsign">%</button>
+          <button class="button sign">/</button>
         </div>
         <div class="row">
           <button class="button">7</button>
           <button class="button">8</button>
           <button class="button">9</button>
-          <button class="button">*</button>
+          <button class="button sign">*</button>
         </div>
         <div class="row">
           <button class="button">4</button>
           <button class="button">5</button>
           <button class="button">6</button>
-          <button class="button">-</button>
+          <button class="button sign">-</button>
         </div>
         <div class="row">
           <button class="button">1</button>
           <button class="button">2</button>
           <button class="button">3</button>
-          <button class="button">+</button>
+          <button class="button sign">+</button>
         </div>
         <div class="row">
-          <button class="button">0</button>
+          <button class="button zero">0</button>
           <button class="button">.</button>
-          <button class="button">=</button>
+          <button class="button sign">=</button>
         </div>
       </div>
+      <div class="scrollline"></div>
     </div>
-
+    <div class="volmbtn"><p>|</p><p>|</p></div>
+    <div class="silentbtn"><p>|</p></div>
+    <div class="powerbtn"><p>|</p><p>|</p></div>
+    
     <script src="index.js"></script>
   </body>
 </html>

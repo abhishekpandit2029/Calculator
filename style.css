@@ -8,13 +8,13 @@ body {
 }
 
 h1{
-    margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 .button {
   width: 45px;
   padding: 14px 5px;
-  margin: 3.5px 1.5px;
+  margin: 4px 2px;
   border: 2px solid black;
   border-radius: 50px;
   cursor: pointer;
@@ -43,9 +43,9 @@ h1{
 }
 
 .row input {
-  width: 200px;
-  font-size: 30px;
-  padding-left:5px;
+  width: 235px;
+  font-size: xx-large;
+  padding-left:10px;
   border-radius: 5px;
   font-family: "Varela Round", sans-serif;
   font-weight: 600;
@@ -53,38 +53,38 @@ h1{
   color: white;
   border: 1px solid #1C1C1C;
   background-color: #1C1C1C;
-  margin-top: 10px;
-}
-
-img{
-    width: 25px;
-    cursor: pointer;
+  margin-top: 30px;
+  word-wrap: break-word;
 }
 
 .firstblock {
-  border-radius: 65px 65px 0 0;
+  border-radius: 45px 45px 0 0;
   display: flex;
+  min-height: 250px;
   flex-direction: column;
   align-items: center;
   color: white;
   justify-content: center;
+  /* border: 1px solid red; */
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  margin-top: -50px;
+  /* border: 1px solid red; */
 }
 
 .calc {
-  min-height: 13.8cm;
-  min-width: 6.7cm;
+  height: 13.5cm;
+  width: 6.7cm;
   border-radius: 45px;
   background: #1C1C1C;  
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
+  margin-top: 30px;
   border: 3px solid #8e8989;
 }
 
@@ -100,7 +100,7 @@ img{
   display: flex;
   flex-direction:column;
   left: 10px;
-  top: 200px;
+  top: 150px;
   font-size: 40px;
   color: #555555;
   line-height: 10px;
@@ -113,7 +113,7 @@ img{
 .silentbtn{
   position: relative;
   left: 2px;
-  top: 180px;
+  top: 130px;
   font-size: 20px;
   font-weight: bold;
   color: #555555;
@@ -123,7 +123,7 @@ img{
 .powerbtn{
   position: relative;
   right: 5px;
-  top: 200px;
+  top: 160px;
   font-size: 40px;
   color: #555555;
   line-height: 10px;

@@ -8,12 +8,12 @@ body {
 }
 
 h1{
-    margin-top: 0px;
+    margin-top: -30px;
 }
 
 .button {
   width: 45px;
-  padding: 14px 5px;
+  padding: 13px 5px;
   margin: 4px 2px;
   border: 2px solid black;
   border-radius: 50px;
@@ -45,7 +45,7 @@ h1{
 .row input {
   width: 235px;
   font-size: xx-large;
-  padding-left:10px;
+  padding-left:15px;
   border-radius: 5px;
   font-family: "Varela Round", sans-serif;
   font-weight: 600;
@@ -53,7 +53,7 @@ h1{
   color: white;
   border: 1px solid #1C1C1C;
   background-color: #1C1C1C;
-  margin-top: 30px;
+  margin-top: 20px;
   word-wrap: break-word;
 }
 
@@ -68,11 +68,34 @@ h1{
   /* border: 1px solid red; */
 }
 
+.camerasensor{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  place-content: center;
+  position: relative;
+  bottom: 50px;
+  color: #1C1C1C;
+
+}
+.camera{
+  border: 3px solid #8e8989;
+  width: 4px;
+  height: 0;
+  border-radius: 100%;
+}
+.sensor{
+  border: 3px solid #8e8989;
+  width: 40px;
+  height: 0;
+  border-radius: 10px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -50px;
+  margin-top: -60px;
   /* border: 1px solid red; */
 }
 

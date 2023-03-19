@@ -43,9 +43,9 @@ h1{
 }
 
 .row input {
-  width: 235px;
+  width: 215px;
   font-size: xx-large;
-  padding-left:15px;
+  padding: 0 15px;
   border-radius: 5px;
   font-family: "Varela Round", sans-serif;
   font-weight: 600;
@@ -100,7 +100,7 @@ h1{
 }
 
 .calc {
-  height: 13.5cm;
+  height: 13.8cm;
   width: 6.7cm;
   border-radius: 45px;
   background: #1C1C1C;  

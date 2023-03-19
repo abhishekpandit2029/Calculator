@@ -31,13 +31,10 @@ Array.from(buttons).forEach((button) => {
     } catch (error) {
       string = "Syntax error";
       document.querySelector("input").value = string;
-      if (string == "Syntax error") {
-        document.getElementById("del").disabled = true;
-      }
     }
   });
 });
 
-const mplay = () => {
-  document.getElementById("audio").play();
-};
+if (string == "Syntax error") {
+  document.getElementById("del").disabled = true;
+}

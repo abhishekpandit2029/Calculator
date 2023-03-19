@@ -78,14 +78,13 @@ img{
 }
 
 .calc {
-  width: 235px;
-  height: 470px;
+  min-height: 13.8cm;
+  min-width: 6.7cm;
   border-radius: 45px;
   background: #1C1C1C;  
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
-  margin-top: 30px;
   border: 3px solid #8e8989;
 }
 
@@ -100,10 +99,9 @@ img{
   position: relative;
   display: flex;
   flex-direction:column;
-  right: 244.5px;
-  top: 140px;
+  left: 10px;
+  top: 200px;
   font-size: 40px;
-  /* font-weight: bold; */
   color: #555555;
   line-height: 10px;
 }
@@ -114,24 +112,19 @@ img{
 
 .silentbtn{
   position: relative;
-  display: flex;
-  flex-direction:column;
-  right: 252px;
-  top: 120px;
+  left: 2px;
+  top: 180px;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: bold;
   color: #555555;
   line-height: 10px;
 }
 
 .powerbtn{
   position: relative;
-  display: flex;
-  flex-direction:column;
-  right: 20px;
-  top: 150px;
+  right: 5px;
+  top: 200px;
   font-size: 40px;
-  /* font-weight: bold; */
   color: #555555;
   line-height: 10px;
 }

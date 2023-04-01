@@ -68,6 +68,11 @@ h1{
   /* border: 1px solid red; */
 }
 
+.mainbtn{
+  font-size: 23px;
+  padding: 8px 5px;
+}
+
 .camerasensor{
   display: flex;
   flex-direction: row;
@@ -79,15 +84,14 @@ h1{
 
 }
 .camera{
-  border: 3px solid #8e8989;
-  width: 4px;
-  height: 0;
-  border-radius: 100%;
+  border: 3.1px solid #8e8989;
+  width: 3px;
+  height: auto;
+  border-radius: 50%;
 }
 .sensor{
   border: 3px solid #8e8989;
   width: 40px;
-  height: 0;
   border-radius: 10px;
 }
 
@@ -100,7 +104,7 @@ h1{
 }
 
 .calc {
-  height: 13.8cm;
+  height: 13cm;
   width: 6.7cm;
   border-radius: 45px;
   background: #1C1C1C;  
@@ -113,7 +117,7 @@ h1{
 
 .scrollline{
   border: 2px solid whitesmoke;
-  margin: 35px auto;
+  margin: 30px auto;
   width: 85px;
   border-radius: 50px;
 }

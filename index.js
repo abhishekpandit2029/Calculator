@@ -1,5 +1,6 @@
 let string = "";
 let buttons = document.querySelectorAll(".button");
+
 Array.from(buttons).forEach((button) => {
   button.addEventListener("click", (e) => {
     try {
@@ -13,16 +14,25 @@ Array.from(buttons).forEach((button) => {
         document.querySelector("input").value = string;
       } 
 
+      else if (string == "Syntax error") {
+        buttons.disabled = true
+      }
+
+      else if (e.target.innerHTML == "÷") {
+        string = string + "/";
+        document.querySelector("input").value = string;
+      }
+
+      else if (e.target.innerHTML == "×") {
+        string = string + "*";
+        document.querySelector("input").value = string;
+      }
+
       else if (e.target.innerHTML == "DEL") {
         string = string.slice(0, -1);
         document.querySelector("input").value = string;
         console.log(string);
       } 
-
-      else if (string == "Syntax error") {
-        buttons.disabled = true
-      }
-
       else {
         console.log(e.target);
         string = string + e.target.innerHTML;
